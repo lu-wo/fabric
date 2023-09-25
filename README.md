@@ -1,14 +1,8 @@
 # FABRIC: Personalizing Diffusion Models with Iterative Feedback
 
-[Paper](https://arxiv.org/abs/2307.10159) |
-[Website](https://sd-fabric.github.io/) |
-[Colab](https://colab.research.google.com/drive/1rWZ4jQHMvjc-l7xYAssa_OUOaAx3XDQT?usp=sharing) |
-[Gradio](https://colab.research.google.com/drive/12pFi6WAKASG18uH3UcxGMVI37e1pIwAz)
 
 FABRIC (Feedback via Attention-Based Reference Image Conditioning) is a technique to incorporate iterative feedback into the generative process of diffusion models based on StableDiffusion.
 This is done by exploiting the self-attention mechanism in the U-Net in order to condition the diffusion process on a set of positive and negative reference images that are to be chosen based on human feedback.
-
-🚨 FABRIC plugin for SD WebUI (alpha version): https://github.com/dvruette/sd-webui-fabric
 
 
 ## Setup
@@ -81,14 +75,3 @@ To evaluate using the HPS LoRA, download it from [the official repository](https
 python fabric/evaluation/target_image_feedback.py lora_weights="resources/hps_lora/adapted_model.bin"
 ```
 
-## Citation
-```
-@misc{vonrutte2023fabric,
-      title={FABRIC: Personalizing Diffusion Models with Iterative Feedback}, 
-      author={Dimitri von Rütte and Elisabetta Fedele and Jonathan Thomm and Lukas Wolf},
-      year={2023},
-      eprint={2307.10159},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
