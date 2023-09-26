@@ -7,10 +7,7 @@ build-backend = "setuptools.build_meta"
 name = "fabric"
 description = "FABRIC: Personalizing Diffusion Models with Iterative Feedback"
 authors = [
-    { name = "Elisabetta Fedele" },
-    { name = "Lukas Wolf" },
-    { name = "Jonathan Thomm" },
-    { name = "Dimitri von Rütte" }
+    { name = "Anonymous" },
 ]
 readme = "README.md"
 urls = {github = "https://github.com/sd-fabric/fabric"}
